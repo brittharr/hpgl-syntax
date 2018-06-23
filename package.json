@@ -1,0 +1,26 @@
+{
+    "name": "hpgl-syntax",
+    "displayName": "",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "brittharr",
+    "engines": {
+        "vscode": "^1.24.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "",
+            "aliases": ["hpgl", ""],
+            "extensions": [""],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "",
+            "scopeName": "",
+            "path": "./syntaxes/.tmLanguage.json"
+        }]
+    }
+}
