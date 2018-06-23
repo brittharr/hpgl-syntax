@@ -1,26 +1,35 @@
 {
     "name": "hpgl-syntax",
-    "displayName": "",
-    "description": "",
-    "version": "0.0.1",
+    "version": "1.0.0",
+    "description": "HPGL Syntax Highlighter for VSCode",
+    "keywords": ["syntax", "hpgl", "HP-GL", "Hewlett-Packard"],
+    "license": "MIT",
+    "author": {
+        "name": "Brittany Harris",
+        "url": "https://brittany-harris.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/brittharr/hpgl-syntax"
+    },
+    "displayName": "HPGL Syntax Highlighter",
     "publisher": "brittharr",
     "engines": {
-        "vscode": "^1.24.0"
+        "vscode": "^1.23.0"
     },
     "categories": [
         "Programming Languages"
     ],
     "contributes": {
         "languages": [{
-            "id": "",
-            "aliases": ["hpgl", ""],
-            "extensions": [""],
-            "configuration": "./language-configuration.json"
+            "id": "hpgl",
+            "aliases": ["HPGL", "Hewlett-Packard Graphics Language", "HP-GL"],
+            "extensions": [".hgl",".hpgl"]
         }],
         "grammars": [{
-            "language": "",
-            "scopeName": "",
-            "path": "./syntaxes/.tmLanguage.json"
+            "language": "hpgl",
+            "scopeName": "source.hpgl",
+            "path": "./syntaxes/hpgl.tmLanguage.json"
         }]
     }
 }
